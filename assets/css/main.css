@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #006376;
+		color: #1a73ded9;
 		text-decoration: underline;
 	}
 
@@ -1790,9 +1790,9 @@ input, select, textarea {
 		display: inline-block;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		text-decoration: none;
-		background: #3389c5;
+		background: #1a73ded9;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -2403,7 +2403,7 @@ input, select, textarea {
 
 			#nav li:hover a, #nav li:hover span {
 				background: #C1CAC5;
-				color: #fff;
+				color: #5b63b7f;
 			}
 
 			#nav li.active a, #nav li.active span {
@@ -2412,8 +2412,8 @@ input, select, textarea {
 			}
 
 			#nav li.current a {
-				background: #f8c445;
-				color: #fff;
+				background: #fff8b4d9;
+				color: #5b63b7;
 			}
 
 	.dropotron {
@@ -2488,7 +2488,7 @@ input, select, textarea {
 
 		#banner .content {
 			position: relative;
-			background-color: rgba(248, 196, 69, 0.85);
+			background-color: rgba(255, 248, 180, 0.85);
 			background-image: url("images/overlay.png"), url("images/highlight.png");
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
@@ -2537,7 +2537,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #f8c445;
+		border-top: solid 5px #fff8b4d9;
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
@@ -2819,7 +2819,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #f8c445;
+						background: #fff8b4d9;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';

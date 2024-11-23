@@ -77,24 +77,28 @@ function image2(receivedJSON) {
 */
 
 function schedule(receivedJSON) {
+	/*
 	if(document.getElementById("plage_horaire_1") !== null) {
 		var time1 = document.getElementById("plage_horaire_1");
 		if(receivedJSON[0] !== undefined) {
 			time1.innerHTML = receivedJSON[0];
 		}
 	}
+	*/
 	if(document.getElementById("plage_horaire_4") !== null) {
 		var time4 = document.getElementById("plage_horaire_4");
 		if(receivedJSON[0] !== undefined) {
 			time4.innerHTML = receivedJSON[0];
 		}
 	}
+	/*
 	if(document.getElementById("plage_horaire_2") !== null) {
 		var time2 = document.getElementById("plage_horaire_2");
 		if(receivedJSON[1] !== undefined) {
 			time2.innerHTML = receivedJSON[1];
 		}
 	}
+	*/
 	if(document.getElementById("plage_horaire_5") !== null) {
 		var time5 = document.getElementById("plage_horaire_5");
 		if(receivedJSON[1] !== undefined) {

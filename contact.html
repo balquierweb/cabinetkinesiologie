@@ -13,24 +13,26 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 	</head>
 	<style>
 		.lora-text {
-			font-family: "Lora", serif;
-			font-optical-sizing: auto;
-			font-weight: 100;
-			text-transform: none;
+			font-family: "Asap Condensed", sans-serif;
+			font-weight: 400;
 			font-style: normal;
+			font-size: larger;
 		}
 		#banner {
-			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img13.jpg");
+			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img25.jpg");
 		}
 		.logoimage {
 			background-image: url("images/logo.png");
 			width:45px;
 			height: 45px;
 			background-size: cover;
+		}
+		.bannertitle {
+			 color: #5b63b7 !important;
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -66,7 +68,7 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2 class="lora-text"><group style="font-size:99">Contactez-moi</group></h2><br>
+						<h2 class="lora-text bannertitle"><group style="font-size:1.5em">Contactez-moi</group></h2><br>
 						<a href="#horaires" class="button scrolly">Horaires</a>
 						<a href="#localisation" class="button scrolly">Se rendre à mon cabinet</a>
 						<a href="#contact" class="button scrolly">Contact</a>
@@ -96,7 +98,7 @@
 										<h2 class="major"></h2>
 										<div class="col-12">
 											<ul class="actions">
-												<li><a href="#contact" class="button large" style="padding: 10px;">Je vous contacte</a></li><br><br>
+												<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li><br><br>
 												<!-- <li><a href="#" class="button alt large">Think About It</a></li> -->
 											</ul>
 										</div>
@@ -113,7 +115,7 @@
 
 												<!-- Feature -->
 													<section class="box feature lora-text" style="font-size: larger;text-align: justify;">
-														<h3><wrdgrp style="color:#3389c5">Quels sont mes modalités de rendez-vous ?</wrdgrp></h3><br>
+														<h3><wrdgrp>Quels sont mes modalités de rendez-vous ?</wrdgrp></h3><br>
 														<p>
 														- En cabinet à Anglet :<br>
 														<line id="address_1">Résidence l'Alliance, 3 Rue du Pont de l'Aveugle, 64600 Anglet</line> (<a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30?sa=X&ved=1t:8290&ictx=111">Lien Google Maps</a>)<br><br>
@@ -127,7 +129,7 @@
 
 												<!-- Feature -->
 													<section class="box feature lora-text">
-														<a href="#" class="image featured"><img src="images/localisation_cabinet_2.jpg" alt="" /></a>
+														<a href="images/localisation_cabinet_2.jpg" class="image featured"><img src="images/localisation_cabinet_2.jpg" alt="" /></a>
 														<!--
 														<h3><a href="#">Description</a></h3>
 														<p>
@@ -149,7 +151,7 @@
 														markers = [];
 														map = L.map('map').setView([43.499008265531685,-1.493978356857877], 17);
 		
-														var iPointsArray = [["43.499230556571966","-1.4940716333149255","Cabinet de Kinésiologie, Résidence l'Alliance, 3 Rue du Pont de l'Aveugle, 64600 Anglet (<a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30?sa=X&ved=1t:8290&ictx=111\">Lien Google Maps</a>)"]];
+														var iPointsArray = [["43.499230556571966","-1.4940716333149255","<a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30?sa=X&ved=1t:8290&ictx=111\">Cabinet de Kinésiologie</a>"]];
 		
 														new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 														attribution: 'Cabinet de Kinésiologie, Résidence l\'Alliance, 3 Rue du Pont de l\'Aveugle, 64600 Anglet (<a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30?sa=X&ved=1t:8290&ictx=111">Lien Google Maps</a>)',
@@ -174,7 +176,7 @@
 
 												<!-- Feature -->
 													<section class="box feature lora-text">
-														<a href="#" class="image featured"><img src="images/localisation_cabinet_1.jpg" alt="" /></a>
+														<a href="images/localisation_cabinet_1.jpg" class="image featured"><img src="images/localisation_cabinet_1.jpg" alt="" /></a>
 														<!--
 														<h3><a href="#">Description</a></h3>
 														<p>
@@ -189,8 +191,8 @@
 										<h2 class="major"></h2>
 										<div class="col-12">
 											<ul class="actions">
-												<li><a href="#contact" class="button large" style="padding: 10px;">Je vous contacte</a></li><br><br>
-												<li><a href="#calendrier" class="button large" style="padding: 10px;">Je réserve ma séance</a></li>
+												<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li>
+												<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
 											</ul>
 										</div>
 									</section>
@@ -248,7 +250,7 @@
 											</div>
 										</section>
 										<ul class="actions">
-											<li><a href="#calendrier" class="button large" style="padding: 10px;">Je réserve ma séance</a></li>
+											<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
 										</ul>
 									</section>
 
