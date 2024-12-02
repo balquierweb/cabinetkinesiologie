@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #1a73ded9;
+		color: #006b60;
 		text-decoration: underline;
 	}
 
@@ -1792,7 +1792,7 @@ input, select, textarea {
 		font-weight: 700;
 		// text-transform: uppercase;
 		text-decoration: none;
-		background: #1a73ded9;
+		background: #006b60;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1814,7 +1814,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #4d93c4;
+			background: #61baad;
 		}
 
 		input[type="button"]:active,
@@ -1822,7 +1822,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #70afdb;
+			background: #61baad;
 		}
 
 		input[type="button"].alt,
@@ -1961,7 +1961,7 @@ input, select, textarea {
 				top: -5px;
 			}
 
-				ul.contact li:hover a.fa-facebook {
+				ul.contact li:hover a.fa-facebook-f {
 					background-color: #3C5A98;
 				}
 
@@ -1978,7 +1978,7 @@ input, select, textarea {
 				}
 
 				ul.contact li:hover a.fa-instagram {
-					background-color: #2E5E86;
+					background-color: #e1306c;
 				}
 
 				ul.contact li:hover a.fa-google-plus {
@@ -2403,7 +2403,7 @@ input, select, textarea {
 
 			#nav li:hover a, #nav li:hover span {
 				background: #C1CAC5;
-				color: #5b63b7f;
+				color: #005248f;
 			}
 
 			#nav li.active a, #nav li.active span {
@@ -2412,8 +2412,8 @@ input, select, textarea {
 			}
 
 			#nav li.current a {
-				background: #fff8b4d9;
-				color: #5b63b7;
+				background: #ffad00;
+				color: #005248;
 			}
 
 	.dropotron {
@@ -2488,7 +2488,7 @@ input, select, textarea {
 
 		#banner .content {
 			position: relative;
-			background-color: rgba(255, 248, 180, 0.85);
+			background-color: rgba(255, 173, 0, 0.85);
 			background-image: url("images/overlay.png"), url("images/highlight.png");
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
@@ -2537,7 +2537,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #fff8b4d9;
+		border-top: solid 5px #ffad00;
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
@@ -2819,7 +2819,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #fff8b4d9;
+						background: #ffad00;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
