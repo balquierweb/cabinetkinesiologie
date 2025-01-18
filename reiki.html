@@ -26,6 +26,17 @@
 		#banner {
 			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img25.jpg");
 		}
+		.content {
+			border-bottom-left-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			border-top-left-radius: 50% 200px; 
+			border-top-right-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			width: 160%; overflow: hidden; 
+			margin-bottom: -50px; 
+			position: relative; 
+			left:-30%;
+		}
 		.logoimage {
 			background-image: url("images/logo.png");
 			width:45px;
@@ -33,7 +44,16 @@
 			background-size: cover;
 		}
 		.bannertitle {
-			 color: #005248 !important;
+			 color: #fffcde !important;
+		}
+		.buttonshade {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		.textshade {
+			text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+		}
+		.roundbox {
+			border-radius: 25px;
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -69,15 +89,12 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2 class="lora-text bannertitle"><group style="font-size:1.5em">Reiki<br><br></group>
-						<!--
-							L'intelligence du corps au service de votre libération é-maux-tionnelle <br>
-							Praticienne Reiki et Amma Crânien Kubo <br>
-							Conseillère en Gemmothérapie
-						-->
-						</h2><br>
-						<a href="#main" class="button scrolly">Mon programme</a>
-						<a href="#calendrier" class="button scrolly">Je réserve ma séance</a>
+						<h2 class="lora-text bannertitle textshade"><group style="font-size:1.5em">Reiki<br><br></group>
+							❝ L'intelligence du corps au service de la santé ❞<br><br>
+						</h2>
+						<!-- <a href="#main" class="button scrolly buttonshade">Mon programme</a> -->
+						<a href="#calendrier" class="button scrolly buttonshade">Je réserve ma séance</a>
+						<a href="#contact" class="button scrolly buttonshade">Je vous contacte</a>
 					</div>
 				</section>
 
@@ -86,7 +103,7 @@
 					<div class="container">
 						<div class="row gtr-200">
 							<div class="col-12">
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<p class="lora-text" style="text-align: justify;">
 											Faire une séance de <wrdgrp style="font-weight:bold">Reiki</wrdgrp> c'est prendre 35 à 90 minutes pour <wrdgrp style="font-weight:bold">réharmoniser</wrdgrp> 
 											<wrdgrp style="font-weight:bold">l'énergie</wrdgrp> de votre corps dans son ensemble, de retrouver <wrdgrp style="font-weight:bold">calme et sérénité</wrdgrp>, 
@@ -95,7 +112,7 @@
 											<wrdgrp style="font-weight:bold">Le Reiki coupe le feu</wrdgrp>.
 										</p>
 									</section>
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<h2 class="major"><span>Reiki</span></h2>
 										<p class="lora-text" style="text-align: justify;">
 											<wrdgrp style="font-weight:bold;">Qu'est-ce que le Reiki ?</wrdgrp><br><br>
@@ -103,7 +120,7 @@
 											Le Reiki Usui améliore le bien-être, soulage les souffrances, favorise le centrage et la guérison des traumatismes émotionnels, accompagne le développement personnel et l’évolution spirituelle. Il contribue à renforcer le système immunitaire, le processus d’auto-guérison et permet de dissoudre les blocages (traumatismes mentaux, phobies, angoisses).<br><br>
 											Le praticien canalise et transmet l’énergie à la personne qui reçoit le soin, par l’imposition des mains pour activer les processus naturels de guérison.
 										</p>
-										<section class="box prestations">
+										<section class="box prestations individualblock roundbox">
 											<p class="lora-text" style="text-align: center;">
 												<line style="font-style:italic;color:gray">Ce n’est ni une religion, ni un mouvement sectaire.
 												</line>
@@ -128,17 +145,18 @@
 												Une séance de Reiki ne comporte aucun geste invasif, ni aucune manipulation brusque. 
 											</p>
 										</p>
+									</section>
 										<div class="col-12">
 											<ul class="actions">
-												<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li><br><br>
+												<li><a href="#contact" class="button large buttonshade" style="padding: 20px;">Je vous contacte</a></li><br><br>
 											</ul>
 										</div>
+										<br><h2 class="major"><span>Je prends rendez-vous</span></h2>
 										<div id="calendrier">
 											<!-- Google Calendar Appointment Scheduling begin -->
 											<iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1BP14m_5R_ageZjN0niP-2PB0Jg6IFiDwkLqLaBUyq0XgYm7JmmoVgOvZVvfxJqKOJRxVevG2B?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
 											<!-- end Google Calendar Appointment Scheduling -->
 										</div>
-									</section>
 									<h2 class="major"></h2>
 									<section class="box vitrine">
 										<div class="row">
@@ -249,7 +267,7 @@
 												<!-- The text field -->
 												<input type="text" value="balquier11@gmail.com" id="myEmail" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputEmail()" class="button primary">Copier E-Mail</button></li>
+												<button onclick="copyInputEmail()" class="button primary buttonshade">Copier E-Mail</button></li>
 												</ul>
 														</div>
 													</div>
@@ -262,7 +280,7 @@
 												<!-- The text field -->
 												<input type="text" value="+33768904823" id="myPhoneNumber" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputPhoneNumber()" class="button primary">Copier N° Téléphone</button></li>
+												<button onclick="copyInputPhoneNumber()" class="button primary buttonshade">Copier N° Téléphone</button></li>
 												</ul>
 														</div>
 													</div>
@@ -270,7 +288,7 @@
 											</div>
 										</section>
 										<ul class="actions">
-											<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
+											<li><a href="#calendrier" class="button large buttonshade" style="padding: 20px;">Je réserve ma séance</a></li>
 										</ul>
 									</section>
 
@@ -298,7 +316,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/copy.js"></script>
-			<script src="assets/js/googlesheetsdata.js"></script>
+			<!-- <script src="assets/js/googlesheetsdata.js"></script> -->
 
 	</body>
 </html>

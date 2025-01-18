@@ -26,6 +26,17 @@
 		#banner {
 			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img28.jpg");
 		}
+		.content {
+			border-bottom-left-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			border-top-left-radius: 50% 200px; 
+			border-top-right-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			width: 160%; overflow: hidden; 
+			margin-bottom: -50px; 
+			position: relative; 
+			left:-30%;
+		}
 		.logoimage {
 			background-image: url("images/logo.png");
 			width:45px;
@@ -33,7 +44,16 @@
 			background-size: cover;
 		}
 		.bannertitle {
-			 color: #005248 !important;
+			 color: #fffcde !important;
+		}
+		.buttonshade {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		.textshade {
+			text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+		}
+		.roundbox {
+			border-radius: 25px;
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -69,11 +89,12 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2 class="lora-text bannertitle"><group style="font-size:1.5em">Kinésiologie<br><br></group>
+						<h2 class="lora-text bannertitle textshade"><group style="font-size:1.5em">Kinésiologie<br><br></group>
 							❝ L'intelligence du corps au service de votre libération é-maux-tionnelle ❞<br><br>
 						</h2>
-						<a href="#main" class="button scrolly">Mon programme</a>
-						<a href="#calendrier" class="button scrolly">Je réserve ma séance</a>
+						<!-- <a href="#main" class="button scrolly buttonshade">Mon programme</a> -->
+						<a href="#calendrier" class="button scrolly buttonshade">Je réserve ma séance</a>
+						<a href="#contact" class="button scrolly buttonshade">Je vous contacte</a>
 					</div>
 				</section>
 
@@ -82,14 +103,14 @@
 					<div class="container">
 						<div class="row gtr-200">
 							<div class="col-12">
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<p class="lora-text" style="text-align: justify;">
 											Lors d'une séance de <wrdgrp style="font-weight:bold">KINESIOLOGIE</wrdgrp> pas besoin d'étaler votre vie pendant des heures, le <wrdgrp style="font-weight:bold">test musculaire</wrdgrp> 
 											permet de retrouver l'<wrdgrp style="font-weight:bold">'équilibration adéquate</wrdgrp> pour solutionner votre problématique quelle qu'elle soit, et 
 											<wrdgrp style="font-weight:bold">vous soulager durablement</wrdgrp>, 1h à 1h30.
 										</p>
 									</section>
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<h2 class="major"><span>Kinésiologie</span></h2>
 										<p class="lora-text" style="text-align: justify;">
 											<wrdgrp style="font-weight:bold;">Qu'est-ce que la Kinésiologie ?</wrdgrp><br><br>
@@ -110,7 +131,7 @@
 							<div class="col-12">
 
 								<!-- Blog -->
-									<section class="box deontology">
+									<section class="box deontology individualblock">
 												<h2 class="major"></h2>
 												<p class="lora-text" style="text-align: center;">
 													<wrdgrp style="font-weight:bold;">Le test musculaire, principe de base de la kinésiologie</wrdgrp><br><br>
@@ -149,7 +170,7 @@
 													<wrd style="font-weight:bold">Pendant la séance je ne parle pas beaucoup</wrd>, ni ne vous fais beaucoup parler. Il m'arrive de vous poser des questions sur des périodes ou âge de votre vie. Votre corps au travers du test musculaire m'indique l'équilibration adéquate pour sortir de votre problématique. J'utilise les <wrd style="font-weight:bold">modes digitaux</wrd> spécifiques à la <wrd style="font-weight:bold">Pratique Kinésiologie Professionnelle</wrd> et les techniques de <wrd style="font-weight:bold">Santé par le Toucher</wrd>  (Touch for Health). Tout cela ouvre mes champs sur l'Epigénétique, le Transgénérationnel, l'Emotionnel (deuil, libération des blessures, le poids et les émotions..), l'Edu-k (Brain-gym), l'Energétique, les Réflexes Archaïques, la Périnatalité et d'autres connaissances acquises.
 												</p>
 												<h2 class="major"></h2>
-												<section class="box detailpresta">
+												<section class="box detailpresta individualblock">
 													<div class="row">
 														<div class="col-6 col-6-medium col-9-small">
 																<section class="box feature lora-text" style="font-size: larger;text-align: justify;">
@@ -195,14 +216,16 @@
 														<line class="lora-text" style="font-style:italic;color:red;font-size:x-large">* Dans les cas de douleurs, de blessures le kinésiologue n’interviendra qu’après avis médical</li>
 													</div>
 												</section>
+									</section>
 												<h2 class="major"></h2>
 												<div class="col-3 col-12-medium">
 													<div class="col-12">
 														<ul class="actions">
-															<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li><br><br>
+															<li><a href="#contact" class="button large buttonshade" style="padding: 20px;">Je vous contacte</a></li><br><br>
 														</ul>
 													</div>
 												</div>
+												<br><h2 class="major"><span>Je prends rendez-vous</span></h2>
 												<div id="calendrier">
 													<!-- Google Calendar Appointment Scheduling begin -->
 													<iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1BP14m_5R_ageZjN0niP-2PB0Jg6IFiDwkLqLaBUyq0XgYm7JmmoVgOvZVvfxJqKOJRxVevG2B?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
@@ -237,7 +260,6 @@
 														</div>
 													</div>
 												</section>
-									</section>
 							</div>
 						</div>
 					</div>
@@ -271,7 +293,7 @@
 												<!-- The text field -->
 												<input type="text" value="balquier11@gmail.com" id="myEmail" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputEmail()" class="button primary">Copier E-Mail</button></li>
+												<button onclick="copyInputEmail()" class="button primary buttonshade">Copier E-Mail</button></li>
 												</ul>
 														</div>
 													</div>
@@ -284,7 +306,7 @@
 												<!-- The text field -->
 												<input type="text" value="+33768904823" id="myPhoneNumber" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputPhoneNumber()" class="button primary">Copier N° Téléphone</button></li>
+												<button onclick="copyInputPhoneNumber()" class="button primary buttonshade">Copier N° Téléphone</button></li>
 												</ul>
 														</div>
 													</div>
@@ -292,7 +314,7 @@
 											</div>
 										</section>
 										<ul class="actions">
-											<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
+											<li><a href="#calendrier" class="button large buttonshade" style="padding: 20px;">Je réserve ma séance</a></li>
 										</ul>
 									</section>
 
@@ -320,7 +342,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/copy.js"></script>
-			<script src="assets/js/googlesheetsdata.js"></script>
+			<!-- <script src="assets/js/googlesheetsdata.js"></script> -->
 
 	</body>
 </html>

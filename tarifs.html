@@ -26,6 +26,17 @@
 		#banner {
 			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img25.jpg");
 		}
+		.content {
+			border-bottom-left-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			border-top-left-radius: 50% 200px; 
+			border-top-right-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			width: 160%; overflow: hidden; 
+			margin-bottom: -50px; 
+			position: relative; 
+			left:-30%;
+		}
 		.logoimage {
 			background-image: url("images/logo.png");
 			width:45px;
@@ -33,7 +44,16 @@
 			background-size: cover;
 		}
 		.bannertitle {
-			 color: #005248 !important;
+			 color: #fffcde !important;
+		}
+		.buttonshade {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		.textshade {
+			text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+		}
+		.roundbox {
+			border-radius: 25px;
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -69,14 +89,11 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2 class="lora-text bannertitle"><group style="font-size:1.5em">Tarifs<br><br></group>
-						<!--
-							L'intelligence du corps au service de votre libération é-maux-tionnelle <br>
-							Praticienne Reiki et Amma Crânien Kubo <br>
-							Conseillère en Gemmothérapie
-						-->
+						<h2 class="lora-text bannertitle textshade"><group style="font-size:1.5em">Tarifs<br><br></group>
+							<!-- ❝ ... ❞<br><br> -->
+						</h2>
 						</h2><br>
-						<a href="#tarifs" class="button scrolly">Mes Tarifs</a>
+						<a href="#tarifs" class="button scrolly buttonshade">Mes Tarifs</a>
 					</div>
 				</section>
 
@@ -85,7 +102,7 @@
 					<div class="container">
 						<div class="row gtr-200">
 							<div class="col-12">
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<p class="lora-text" style="text-align: center;font-size: xx-large;">
 											À distance ou en présentiel<br><br>
 											<wrdgrp style="font-weight:bold;">SUR RENDEZ-VOUS</wrdgrp>
@@ -108,7 +125,7 @@
 											-->
 										</section>
 									</section>
-									<section id="tarifs" class="box prestations">
+									<section id="tarifs" class="box prestations individualblock roundbox">
 										<h2 class="major"><span>Tarifs</span></h2>
 										<p class="lora-text" style="text-align: center;font-size: x-large">
 											Moyens de paiement :<br>
@@ -166,7 +183,7 @@
 									<h2 class="major"></h2>
 									<div class="col-12">
 										<ul class="actions">
-											<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li><br><br>
+											<li><a href="#contact" class="button large buttonshade" style="padding: 20px;">Je vous contacte</a></li><br><br>
 											<!-- <li><a href="#" class="button alt large">Think About It</a></li> -->
 										</ul>
 									</div>
@@ -204,7 +221,7 @@
 												<!-- The text field -->
 												<input type="text" value="balquier11@gmail.com" id="myEmail" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputEmail()" class="button primary">Copier E-Mail</button></li>
+												<button onclick="copyInputEmail()" class="button primary buttonshade">Copier E-Mail</button></li>
 												</ul>
 														</div>
 													</div>
@@ -217,7 +234,7 @@
 												<!-- The text field -->
 												<input type="text" value="+33768904823" id="myPhoneNumber" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputPhoneNumber()" class="button primary">Copier N° Téléphone</button></li>
+												<button onclick="copyInputPhoneNumber()" class="button primary buttonshade">Copier N° Téléphone</button></li>
 												</ul>
 														</div>
 													</div>
@@ -244,7 +261,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/copy.js"></script>
-			<script src="assets/js/googlesheetsdata.js"></script>
+			<!-- <script src="assets/js/googlesheetsdata.js"></script> -->
 
 	</body>
 </html>

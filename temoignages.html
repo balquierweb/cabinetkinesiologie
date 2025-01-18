@@ -26,6 +26,17 @@
 		#banner {
 			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img25.jpg");
 		}
+		.content {
+			border-bottom-left-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			border-top-left-radius: 50% 200px; 
+			border-top-right-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			width: 160%; overflow: hidden; 
+			margin-bottom: -50px; 
+			position: relative; 
+			left:-30%;
+		}
 		.logoimage {
 			background-image: url("images/logo.png");
 			width:45px;
@@ -37,7 +48,16 @@
 			padding: 15px;
 		}
 		.bannertitle {
-			 color: #005248 !important;
+			 color: #fffcde !important;
+		}
+		.buttonshade {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		.textshade {
+			text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+		}
+		.roundbox {
+			border-radius: 25px;
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -73,16 +93,12 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2 class="lora-text bannertitle"><group style="font-size:1.5em">Témoignages<br><br></group>
-						<!--
-							L'intelligence du corps au service de votre libération é-maux-tionnelle <br>
-							Praticienne Reiki et Amma Crânien Kubo <br>
-							Conseillère en Gemmothérapie
-						-->
-						</h2><br>
-						<a href="#temoignages" class="button scrolly">Les témoignages</a>
-						<a href="https://www.google.com/maps/place/B%C3%A9reng%C3%A8re+Alquier-Dupin,+Kin%C3%A9siologue+Certifi%C3%A9e/@43.4992334,-1.4940564,636m/data=!3m2!1e3!5s0xd5140448a531619:0x8afa90a55f510b1e!4m8!3m7!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30!8m2!3d43.4992334!4d-1.4940564!9m1!1b1!16s%2Fg%2F11jh44l_h7?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="button scrolly" style="background-color:#fbbc04;color:black">Je donne un avis</a>
-						<a href="#calendrier" class="button scrolly">Je réserve ma séance</a>
+						<h2 class="lora-text bannertitle textshade"><group style="font-size:1.5em">Témoignages<br><br></group>
+							<!-- ❝ ... ❞<br><br> -->
+						</h2>
+						<a href="#temoignages" class="button scrolly buttonshade">Les témoignages</a>
+						<a href="https://www.google.com/maps/place/B%C3%A9reng%C3%A8re+Alquier-Dupin,+Kin%C3%A9siologue+Certifi%C3%A9e/@43.4992334,-1.4940564,636m/data=!3m2!1e3!5s0xd5140448a531619:0x8afa90a55f510b1e!4m8!3m7!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30!8m2!3d43.4992334!4d-1.4940564!9m1!1b1!16s%2Fg%2F11jh44l_h7?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="button scrolly buttonshade" style="background-color:#fbbc04;color:black">Je donne un avis</a>
+						<a href="#calendrier" class="button scrolly buttonshade">Je réserve ma séance</a>
 					</div>
 				</section>
 
@@ -93,11 +109,12 @@
 							<div class="col-12">
 									<div class="col-12">
 										<ul class="actions">
-											<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li>
-											<li><a href="https://www.google.com/maps/place/B%C3%A9reng%C3%A8re+Alquier-Dupin,+Kin%C3%A9siologue+Certifi%C3%A9e/@43.4992334,-1.4940564,636m/data=!3m2!1e3!5s0xd5140448a531619:0x8afa90a55f510b1e!4m8!3m7!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30!8m2!3d43.4992334!4d-1.4940564!9m1!1b1!16s%2Fg%2F11jh44l_h7?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="button large" style="padding: 20px;background-color:#fbbc04;">Je donne un avis</a></li><br><br>
+											<li><a href="#contact" class="button large buttonshade" style="padding: 20px;">Je vous contacte</a></li>
+											<li><a href="https://www.google.com/maps/place/B%C3%A9reng%C3%A8re+Alquier-Dupin,+Kin%C3%A9siologue+Certifi%C3%A9e/@43.4992334,-1.4940564,636m/data=!3m2!1e3!5s0xd5140448a531619:0x8afa90a55f510b1e!4m8!3m7!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30!8m2!3d43.4992334!4d-1.4940564!9m1!1b1!16s%2Fg%2F11jh44l_h7?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="button large buttonshade" style="padding: 20px;background-color:#fbbc04;">Je donne un avis</a></li><br><br>
 											<!-- <li><a href="#" class="button alt large">Think About It</a></li> -->
 										</ul>
 									</div>
+									<br><h2 class="major"><span>Je prends rendez-vous</span></h2>
 									<div id="calendrier">
 										<!-- Google Calendar Appointment Scheduling begin -->
 										<iframe src="https://calendar.google.com/calendar/appointments/AcZssZ2mCmr7zhWkhwrENjdnD4guYC9gUIM2Hni1SeQ=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
@@ -709,9 +726,9 @@
 									<h2 class="major"></h2>
 									<div class="col-12">
 										<ul class="actions">
-											<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li>
-											<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
-											<li><a href="https://www.google.com/maps/place/B%C3%A9reng%C3%A8re+Alquier-Dupin,+Kin%C3%A9siologue+Certifi%C3%A9e/@43.4992334,-1.4940564,636m/data=!3m2!1e3!5s0xd5140448a531619:0x8afa90a55f510b1e!4m8!3m7!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30!8m2!3d43.4992334!4d-1.4940564!9m1!1b1!16s%2Fg%2F11jh44l_h7?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="button large" style="padding: 20px;background-color:#fbbc04;">Je donne un avis</a></li><br><br>
+											<li><a href="#contact" class="button large buttonshade" style="padding: 20px;">Je vous contacte</a></li>
+											<li><a href="#calendrier" class="button large buttonshade" style="padding: 20px;">Je réserve ma séance</a></li>
+											<li><a href="https://www.google.com/maps/place/B%C3%A9reng%C3%A8re+Alquier-Dupin,+Kin%C3%A9siologue+Certifi%C3%A9e/@43.4992334,-1.4940564,636m/data=!3m2!1e3!5s0xd5140448a531619:0x8afa90a55f510b1e!4m8!3m7!1s0xd516b095b7ea44b:0xa7bbe8254d6c0b30!8m2!3d43.4992334!4d-1.4940564!9m1!1b1!16s%2Fg%2F11jh44l_h7?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="button large buttonshade" style="padding: 20px;background-color:#fbbc04;">Je donne un avis</a></li><br><br>
 										</ul>
 									</div>
 							</div>
@@ -747,7 +764,7 @@
 												<!-- The text field -->
 												<input type="text" value="balquier11@gmail.com" id="myEmail" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputEmail()" class="button primary">Copier E-Mail</button></li>
+												<button onclick="copyInputEmail()" class="button primary buttonshade">Copier E-Mail</button></li>
 												</ul>
 														</div>
 													</div>
@@ -760,7 +777,7 @@
 												<!-- The text field -->
 												<input type="text" value="+33768904823" id="myPhoneNumber" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputPhoneNumber()" class="button primary">Copier N° Téléphone</button></li>
+												<button onclick="copyInputPhoneNumber()" class="button primary buttonshade">Copier N° Téléphone</button></li>
 												</ul>
 														</div>
 													</div>
@@ -768,7 +785,7 @@
 											</div>
 										</section>
 										<ul class="actions">
-											<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
+											<li><a href="#calendrier" class="button large buttonshade" style="padding: 20px;">Je réserve ma séance</a></li>
 										</ul>
 									</section>
 
@@ -796,7 +813,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/copy.js"></script>
-			<script src="assets/js/googlesheetsdata.js"></script>
+			<!-- <script src="assets/js/googlesheetsdata.js"></script> -->
 
 	</body>
 </html>

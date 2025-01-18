@@ -26,6 +26,17 @@
 		#banner {
 			background-image: url("images/overlay.png"), url("images/overlay.png"), url("images/img14.jpg");
 		}
+		.content {
+			border-bottom-left-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			border-top-left-radius: 50% 200px; 
+			border-top-right-radius: 50% 200px; 
+			border-bottom-right-radius: 50% 200px; 
+			width: 160%; overflow: hidden; 
+			margin-bottom: -50px; 
+			position: relative; 
+			left:-30%;
+		}
 		.logoimage {
 			background-image: url("images/logo.png");
 			width:45px;
@@ -33,7 +44,16 @@
 			background-size: cover;
 		}
 		.bannertitle {
-			 color: #005248 !important;
+			 color: #fffcde !important;
+		}
+		.buttonshade {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		.textshade {
+			text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+		}
+		.roundbox {
+			border-radius: 25px;
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -69,15 +89,12 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2 class="lora-text bannertitle"><group style="font-size:1.5em">Massage Crânien "Kubo"<br><br></group>
-						<!--
-							L'intelligence du corps au service de votre libération é-maux-tionnelle <br>
-							Praticienne Reiki et Amma Crânien Kubo <br>
-							Conseillère en Gemmothérapie
-						-->
-						</h2><br>
-						<a href="#main" class="button scrolly">Mon programme</a>
-						<a href="#calendrier" class="button scrolly">Je réserve ma séance</a>
+						<h2 class="lora-text bannertitle textshade"><group style="font-size:1.5em">Massage Crânien "Kubo"<br><br></group>
+							<!-- ❝ ... ❞<br><br> -->
+						</h2>
+						<!-- <a href="#main" class="button scrolly buttonshade">Mon programme</a> -->
+						<a href="#calendrier" class="button scrolly buttonshade">Je réserve ma séance</a>
+						<a href="#contact" class="button scrolly buttonshade">Je vous contacte</a>
 					</div>
 				</section>
 
@@ -86,12 +103,12 @@
 					<div class="container">
 						<div class="row gtr-200">
 							<div class="col-12">
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<p class="lora-text" style="text-align: justify;">
 											Le <wrdgrp style="font-weight:bold">AMMA CRÂNiEN KUBO</wrdgrp> au delà de vous <wrdgrp style="font-weight:bold">détendre</wrdgrp> pendant la séance de 15 min ou de 40 minutes, va vous <wrdgrp style="font-weight:bold">redonner du peps</wrdgrp> pour les heures qui suivent.
 										</p>
 									</section>
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<h2 class="major"><span>Massage Crânien "Kubo"</span></h2>
 										<p class="lora-text" style="text-align: justify;">
 											<wrdgrp style="font-weight:bold;">Qu'est-ce que le Massage Crânien "Kubo" ?</wrdgrp><br><br>
@@ -113,7 +130,7 @@
 											</p>
 										</p>
 									</section>
-									<section class="box prestations">
+									<section class="box prestations individualblock roundbox">
 										<h2 class="major"><span>Bienfaits</span></h2>
 										<p class="lora-text" style="text-align: justify;">
 											<wrdgrp style="font-weight:bold;">Quels sont ses bienfaits ?</wrdgrp><br><br>
@@ -122,7 +139,7 @@
 										<p class="lora-text" style="text-align: center;">
 											<wrdgrp style="font-weight:bold;">Relaxant et reboostant en peu de temps.</wrdgrp>
 										</p>
-										<section class="box prestations">
+										<section class="box prestations individualblock roundbox">
 											<h2 class="major"><span>Lieux</span></h2>
 											<p class="lora-text" style="text-align: justify;">
 												<wrdgrp style="font-weight:bold;">Dans quels lieux puis-je profiter du Amma Crânien Kubo ?</wrdgrp><br><br>
@@ -139,23 +156,24 @@
 												<wrdgrp style="font-weight:bold;">Facilement adaptable</wrdgrp>, il peut se pratiquer <wrdgrp style="font-weight:bold;">partout à l’intérieur</wrdgrp> comme <wrdgrp style="font-weight:bold;">à l’extérieur</wrdgrp> (si la météo le permet ! ).
 											</p>
 										</section>
-										<section class="box prestations">
+										<section class="box prestations individualblock roundbox">
 											<p class="lora-text" style="text-align: center;">
 												<line style="font-weight:bold;font-style:italic">Offrez un moment de lâcher-prise et bien-être à vos salarié.e.s, vous n'en tirerez que des bénéfices.</line>
 											</p>
 										</section>
+									</section>
 										<h2 class="major"></h2>
 										<div class="col-12">
 											<ul class="actions">
-												<li><a href="#contact" class="button large" style="padding: 20px;">Je vous contacte</a></li><br><br>
+												<li><a href="#contact" class="button large buttonshade" style="padding: 20px;">Je vous contacte</a></li><br><br>
 											</ul>
 										</div>
+										<br><h2 class="major"><span>Je prends rendez-vous</span></h2>
 										<div id="calendrier">
 											<!-- Google Calendar Appointment Scheduling begin -->
 											<iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ31tkF3h4YFlei3n1N-cnrG1aZLtrMf1Q7DrYW9H6kkbextAFBR7tdQC-9ZtomGq7C5BbIZ4aV3?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
 											<!-- end Google Calendar Appointment Scheduling -->
 										</div>
-									</section>
 									<h2 class="major"></h2>
 									<section class="box vitrine">
 											<div class="col-3 col-6-medium col-12-small">
@@ -204,7 +222,7 @@
 												<!-- The text field -->
 												<input type="text" value="balquier11@gmail.com" id="myEmail" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputEmail()" class="button primary">Copier E-Mail</button></li>
+												<button onclick="copyInputEmail()" class="button primary buttonshade">Copier E-Mail</button></li>
 												</ul>
 														</div>
 													</div>
@@ -217,7 +235,7 @@
 												<!-- The text field -->
 												<input type="text" value="+33768904823" id="myPhoneNumber" style="text-align: center;">
 												<!-- The button used to copy the text -->
-												<button onclick="copyInputPhoneNumber()" class="button primary">Copier N° Téléphone</button></li>
+												<button onclick="copyInputPhoneNumber()" class="button primary buttonshade">Copier N° Téléphone</button></li>
 												</ul>
 														</div>
 													</div>
@@ -225,7 +243,7 @@
 											</div>
 										</section>
 										<ul class="actions">
-											<li><a href="#calendrier" class="button large" style="padding: 20px;">Je réserve ma séance</a></li>
+											<li><a href="#calendrier" class="button large buttonshade" style="padding: 20px;">Je réserve ma séance</a></li>
 										</ul>
 									</section>
 
@@ -253,7 +271,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/copy.js"></script>
-			<script src="assets/js/googlesheetsdata.js"></script>
+			<!-- <script src="assets/js/googlesheetsdata.js"></script> -->
 
 	</body>
 </html>
