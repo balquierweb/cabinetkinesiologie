@@ -3,14 +3,35 @@
 
 .individualblock {
 	background-color: #f5faf8 !important;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.img {
 	padding: 20px;
 }
 
-/*
-	TXT by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@media screen and (min-width: 1280px) {
+	section.individualblock {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+@media screen and (min-width: 1680px) {
+	section.individualblock {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+}
+@media screen and (min-width: 1880px) {
+	section.individualblock {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -222,7 +243,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 64em;
+		width: 100%; /* TODO */
 	}
 
 		@media screen and (max-width: 1680px) {
