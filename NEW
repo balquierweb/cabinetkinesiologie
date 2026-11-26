@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Découvrez le cabinet de Bérengère Alquier-Dupin, kinésiologue certifiée, ses pratiques de bien-être, ses tarifs et les modalités de rendez-vous.">
+<title>Bérengère Alquier-Dupin — Kinésiologie & bien-être</title>
+<link rel="icon" href="media/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="accueil">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="header">
+  <div class="wrap bar">
+    <a class="brand" href="#accueil"><img src="media/logo.png" alt="" width="48" height="48"><span>Bérengère <small>Alquier-Dupin</small></span></a>
+    <nav aria-label="Navigation principale"><a href="#pratiques">Les pratiques</a><a href="#parcours">Mon parcours</a><a href="#tarifs">Tarifs</a><a href="#contact">Contact</a></nav>
+    <a class="button primary" href="#rendez-vous">Prendre rendez-vous</a>
+  </div>
+</header>
+<main id="contenu">
+  <section class="hero wrap" aria-labelledby="titre">
+    <div class="hero-copy">
+      <p class="eyebrow">Bérengère Alquier-Dupin · Kinésiologue certifiée</p>
+      <h1 id="titre">Prendre le temps<br>d’<em>écouter son corps.</em></h1>
+      <p>Kinésiologie, Reiki et pratiques de bien-être. Je vous accompagne à votre rythme, dans un cadre où vous pouvez prendre le temps de vous poser.</p>
+      <div class="actions"><a class="button primary" href="#rendez-vous">Prendre rendez-vous</a><a class="text-link" href="#pratiques">Découvrir les pratiques</a></div>
+    </div>
+    <figure class="hero-image"><img src="media/img1.jpg" alt="" fetchpriority="high"></figure>
+  </section>
+  <section class="practices" id="pratiques">
+    <div class="wrap section">
+      <div class="section-head"><h2>Les pratiques du cabinet</h2><p>Explorez les différentes séances et découvrez comment chacune se déroule.</p></div>
+      <div class="cards">
+        <article><img src="media/kinesiologie.png" alt="" loading="lazy"><div class="card-copy"><h3>Kinésiologie</h3><p>Un temps pour explorer ce qui vous préoccupe à l’aide du test musculaire.</p><details><summary>Déroulement de la séance</summary><p>Nous commençons par un échange sur le motif de votre venue. Vous restez habillé·e sur la table et j’exerce une légère pression, généralement au poignet. Selon la séance, je vous propose des mouvements ou des exercices simples. Comptez 1 h 30 pour un premier rendez-vous.</p></details></div></article>
+        <article><img src="media/reiki.png" alt="" loading="lazy"><div class="card-copy"><h3>Reiki Usui</h3><p>Une pratique japonaise qui invite à faire une pause et à se détendre.</p><details><summary>Déroulement de la séance</summary><p>Après un échange, vous vous installez habillé·e sur la table. Je place mes mains à différents endroits, avec un contact léger ou à quelques centimètres du corps, selon votre confort.</p></details></div></article>
+        <article><img src="media/amma_cranien.png" alt="" loading="lazy"><div class="card-copy"><h3>Amma crânien Kubo</h3><p>Un massage centré sur la tête, la nuque et les épaules pour prendre un temps de détente.</p><details><summary>Déroulement de la séance</summary><p>Le massage alterne pressions et gestes doux, adaptés à votre confort. Une séance individuelle dure 45 minutes. Une version courte est proposée en entreprise sur devis.</p></details></div></article>
+        <article><img src="media/gemmotherapie.png" alt="" loading="lazy"><div class="card-copy"><h3>Gemmothérapie</h3><p>Un rendez-vous pour découvrir les macérats de bourgeons et de jeunes pousses.</p><details><summary>Déroulement de la séance</summary><p>La séance commence par un échange sur vos attentes et vos habitudes. Je vous présente les préparations utilisées dans cette pratique et réponds à vos questions. Comptez environ une heure.</p></details></div></article>
+        <article><img src="media/reflexologie.png" alt="" loading="lazy"><div class="card-copy"><h3>Réflexologie plantaire</h3><p>Un moment de relaxation par le toucher et des pressions ciblées sur les pieds.</p><details><summary>Déroulement de la séance</summary><p>Vous vous installez confortablement pour un massage des pieds. Les pressions sont progressives et s’ajustent à votre sensibilité. Une séance au cabinet dure environ une heure.</p></details></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="wrap section about" id="parcours">
+    <div class="about-picture"><img src="media/portrait.jpg" alt="Bérengère Alquier-Dupin" loading="lazy"></div>
+    <div><p class="eyebrow">Mon parcours</p><h2>Bonjour, je suis Bérengère.</h2><p>J’ai grandi en Afrique et à Madagascar avant de vivre plusieurs années à l’étranger, puis de m’installer sur la Côte basque. J’ai découvert le Reiki en 2014 et suis devenue praticienne Reiki Usui en 2019.</p><p>En mars 2023, j’ai obtenu ma certification en kinésiologie après deux années d’études et plus de 750 heures de formation. En séance, je prends le temps de vous écouter et d’adapter les gestes à votre confort.</p><p class="note">Ces séances s’inscrivent dans une démarche de bien-être, en complément du suivi médical.</p></div>
+  </section>
+  <section class="reviews" aria-labelledby="avis"><div class="wrap section">
+    <div class="section-head"><h2 id="avis">Vos témoignages</h2></div>
+    <div class="quotes">
+      <figure><blockquote>« À l'écoute, très douce. »</blockquote><figcaption>Mireille · septembre 2024</figcaption></figure>
+      <figure><blockquote>« Un vrai moment de plaisir et de détente (massage de la tête). »</blockquote><figcaption>Claire · mars 2024</figcaption></figure>
+      <figure><blockquote>« Prend le temps qu’il faut, on se sent dans un cocon, très douce également. »</blockquote><figcaption>Rachel · mars 2024</figcaption></figure>
+    </div>
+  </div></section>
+  <section class="wrap section rates" id="tarifs">
+    <div><p class="eyebrow">Informations pratiques</p><h2>Tarifs des séances</h2><p>Sur rendez-vous. Certaines séances sont proposées à distance ou à domicile. Contactez-moi pour confirmer le lieu et le tarif applicables à votre rendez-vous.</p><p>Moyens de paiement indiqués par le cabinet&nbsp;: MVola, PayPal et virement bancaire.</p></div>
+    <div class="price-list">
+      <details open><summary>Kinésiologie <span>80 €</span></summary><p>Première séance au cabinet · 1 h 30. Tarif étudiant et demandeur d’emploi · 40 € par séance. Entreprises sur devis.</p></details>
+      <details><summary>Reiki Usui <span>60 €</span></summary><p>Au cabinet ou à distance · 60 €. À domicile · 70 €. Séance courte de 15 min · 20 €. Forfait trois séances · 165 € au cabinet ou à distance, 195 € à domicile.</p></details>
+      <details><summary>Amma crânien Kubo <span>45 €</span></summary><p>Au cabinet · 45 min. À domicile · 55 € pour 45 min. Entreprises sur devis.</p></details>
+      <details><summary>Gemmothérapie <span>80 €</span></summary><p>Séance d’une heure.</p></details>
+      <details><summary>Réflexologie plantaire <span>60 €</span></summary><p>Au cabinet · 1 h. À domicile · 70 €.</p></details>
+    </div>
+  </section>
+  <section class="booking" id="rendez-vous"><div class="wrap section booking-inner"><div><h2>Prendre rendez-vous</h2><p>Consultez les créneaux dans l’agenda ou contactez-moi si vous hésitez entre deux pratiques.</p></div><a class="button light" href="https://calendar.google.com/calendar/appointments/AcZssZ2mCmr7zhWkhwrENjdnD4guYC9gUIM2Hni1SeQ=?gv=true">Voir les disponibilités</a></div></section>
+</main>
+<footer id="contact"><div class="wrap section footer-grid">
+  <div><h2>Contact</h2><p>Bérengère Alquier-Dupin<br>Kinésiologue certifiée</p><a href="https://www.instagram.com/berengere_kinesiologue/">Instagram · @berengere_kinesiologue</a></div>
+  <div><h3>Me joindre</h3><ul><li><a href="mailto:balquier11@gmail.com">balquier11@gmail.com</a></li><li>Madagascar · <a href="tel:+261385316650">+261 38 53 166 50</a></li><li>France (juillet–août) · <a href="tel:+33768904823">+33 7 68 90 48 23</a></li></ul></div>
+  <div><h3>Adresse à Anglet</h3><address>Résidence l’Alliance<br>3 rue du Pont de l’Aveugle<br>64600 Anglet</address><a href="https://www.google.com/maps/search/?api=1&amp;query=3+rue+du+Pont+de+l%27Aveugle+64600+Anglet">Voir sur la carte</a></div>
+</div><div class="wrap footer-bottom">© Bérengère Alquier-Dupin</div></footer>
+</body>
+</html>
+:root{--paper:#faf8f2;--ink:#26382d;--muted:#4d5c50;--green:#2e4838;--sage:#dce5d9;--line:#cad4c7;--serif:Fraunces,Georgia,serif;--sans:"DM Sans",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 var(--sans)}
+img{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:.3em}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid #a36142;outline-offset:5px}
+.wrap{width:min(1180px,calc(100% - 88px));margin-inline:auto}
+.skip{position:absolute;top:-200px;left:1rem;background:white;padding:.5rem;z-index:5}
+.skip:focus{top:1rem}
+.header{border-bottom:1px solid var(--line)}
+.bar{min-height:90px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{display:flex;align-items:center;gap:9px;text-decoration:none;font:500 1.37rem/1.05 var(--serif)}
+.brand img{object-fit:contain}
+.brand small{display:block;font:600 .72rem var(--sans);letter-spacing:.08em;margin-top:5px;text-transform:uppercase}
+nav{display:flex;align-items:center;gap:clamp(15px,3vw,38px)}
+nav a{font-weight:600;text-decoration:none;white-space:nowrap}
+nav a:hover{text-decoration:underline}
+.button{display:inline-flex;min-height:48px;align-items:center;justify-content:center;padding:.7rem 1.25rem;border-radius:4px;font-weight:700;text-decoration:none;line-height:1.25;text-align:center}
+.primary{background:var(--green);color:white}
+.primary:hover{background:#41604a}
+.light{background:var(--paper);color:var(--green)}
+.light:hover{background:var(--sage)}
+.hero{min-height:570px;display:grid;grid-template-columns:1.02fr 1fr;align-items:center;gap:clamp(28px,5vw,68px);padding-block:55px}
+.hero-copy>p:not(.eyebrow){max-width:430px;font-size:1.16rem;color:var(--muted)}
+.eyebrow{text-transform:uppercase;font-size:.88rem;letter-spacing:.1em;font-weight:700;margin:0 0 1rem}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.08;margin:0}
+h1{font-size:clamp(3rem,5.5vw,5.25rem);letter-spacing:-.045em}
+h1 em{font-weight:400;color:#476453}
+h2{font-size:clamp(2.15rem,4.1vw,3.65rem);letter-spacing:-.035em}
+h3{font-size:1.65rem;letter-spacing:-.02em}
+.actions{margin-top:27px;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+.text-link{font-weight:700}
+.hero-image{margin:0;height:clamp(340px,39vw,505px);overflow:hidden;border-radius:48% 48% 6px 6px / 40% 40% 6px 6px;background:var(--sage)}
+.hero-image img,.about-picture img{width:100%;height:100%;object-fit:cover}
+.section{padding-block:clamp(52px,8vw,105px)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:32px}
+.section-head p{max-width:340px;margin:0;color:var(--muted)}
+.practices,.reviews{background:var(--sage)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}
+article{background:var(--paper);overflow:hidden;border-radius:6px}
+article>img{width:100%;height:195px;object-fit:contain;background:#222e15}
+.card-copy{padding:22px}
+.card-copy p{margin:.65rem 0 1rem;color:var(--muted)}
+details{border-top:1px solid var(--line);padding-top:.65rem}
+summary{cursor:pointer;font-weight:700}
+summary:hover{text-decoration:underline;text-underline-offset:.25em}
+details p:last-child{margin-bottom:0}
+.about,.rates{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(25px,7vw,100px);align-items:center}
+.about-picture{height:clamp(300px,39vw,470px);border-radius:48% 48% 6px 6px / 40% 40% 6px 6px;overflow:hidden;background:var(--sage)}
+.note{font-size:.95rem;color:var(--muted);border-left:2px solid var(--line);padding-left:14px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.quotes figure{background:var(--paper);margin:0;padding:23px;border-radius:6px}
+blockquote{font:1.35rem/1.35 var(--serif);margin:0 0 15px}
+figcaption{color:var(--muted)}
+.rates{align-items:start}
+.price-list details{padding:14px 0}
+.price-list details:last-child{border-bottom:1px solid var(--line)}
+.price-list summary span{float:right;margin-left:.6rem;font-variant-numeric:tabular-nums}
+.price-list details p{padding-left:1.15rem}
+.booking{background:var(--green);color:var(--paper)}
+.booking-inner{display:flex;align-items:center;justify-content:space-between;gap:22px;padding-block:50px}
+.booking p{margin:10px 0 0}
+.booking .button{flex-shrink:0}
+.footer-grid{display:grid;grid-template-columns:1.05fr 1fr .85fr;gap:22px;padding-block:48px}
+.footer-grid h2{font-size:2.25rem}
+.footer-grid h3{font-size:1.35rem;margin-bottom:9px}
+.footer-grid ul{list-style:none;margin:0;padding:0}
+address{font-style:normal}
+.footer-bottom{border-top:1px solid var(--line);padding-block:20px;color:var(--muted)}
+@media(max-width:900px){.wrap{width:calc(100% - 48px)}.bar{flex-wrap:wrap;padding-block:14px}.bar nav{order:3;width:100%;padding-top:9px;border-top:1px solid var(--line);justify-content:space-between;flex-wrap:wrap}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.wrap{width:calc(100% - 32px)}.bar{gap:12px}.bar nav{gap:8px 14px;font-size:.94rem}.bar .button{max-width:140px;font-size:.85rem;padding-inline:.65rem}.hero,.about,.rates{grid-template-columns:1fr}.hero{padding-block:39px 28px;min-height:0}.hero-image{height:330px}.section-head,.booking-inner{display:block}.section-head p{margin-top:10px}.cards,.quotes,.footer-grid{grid-template-columns:1fr}.booking .button{margin-top:18px}.about-picture{height:355px}.footer-grid{gap:28px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
